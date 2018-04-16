@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="root" authorOS="Linux" createdAt="1523820661342" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="DOT" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1523826574974">
+<project author="root" authorOS="Linux" createdAt="1523820661342" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="DOT" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1523915881052">
   <tree>
     <expanded>
     <path src=""/>
       <path src="/src"/>
-      <path src="/src/.theme"/>
       <path src="/src/app"/>
-      <path src="/src/app/modules"/>
+      <path src="/src/app/images"/>
       <path src="/src/app/forms"/>
+      <path src="/src/app/modules"/>
+      <path src="/src/.theme"/>
     </expanded>
   </tree>
   <openedFiles>
-  <file selected="1" src="DOT.dnproject"/>
+  <file src="DOT.dnproject"/>
+    <file selected="1" src="src/app/forms/MainForm.php"/>
+    <file src="src/app/forms/lk.php"/>
     <file src="src/app/modules/MainModule.php"/>
-    <file src="src/app/forms/MainForm.php"/>
   </openedFiles>
   <files/>
   <behaviours>
