@@ -1,0 +1,1 @@
+rdesktop -f -u unfox -p nikitosina04 -r sound:local -r disk:"TRANSCEND"="/media/unfox/TRANSCEND" s1.rmstn.ru:30082
