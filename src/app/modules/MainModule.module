@@ -1,0 +1,23 @@
+{
+  "props": [],
+  "components": {
+    "hotkey": {
+      "type": "script\\HotKeyScript",
+      "x": 48,
+      "y": 176,
+      "props": {
+        "key": "Ctrl + 8"
+      }
+    },
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 224,
+      "y": 112,
+      "props": {
+        "path": "config.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    }
+  }
+}

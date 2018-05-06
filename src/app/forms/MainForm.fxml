@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+  <children>
+    <ImageViewEx AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" autoSize="false" centered="false" focusTraversable="false" height="720" id="image" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="1280">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <com.jfoenix.controls.JFXButton AnchorPane.leftAnchor="536" AnchorPane.rightAnchor="534" alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="login_button" layoutX="536" layoutY="400" prefHeight="32" prefWidth="240" style="-fx-background-color: #039be5;" styleClass="button jfx-button " text="Войти" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <com.jfoenix.controls.JFXCheckBox alignment="CENTER_LEFT" checkedColor="#0f9d58" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="save_log" layoutX="536" layoutY="368" prefHeight="24" prefWidth="200" styleClass="check-box jfx-check-box " text="Запомнить вход" textAlignment="LEFT" textFill="#000000" unCheckedColor="#5a5a5a" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </com.jfoenix.controls.JFXCheckBox>
+    <com.jfoenix.controls.JFXPasswordField AnchorPane.leftAnchor="528" AnchorPane.rightAnchor="528" alignment="CENTER_LEFT" editable="true" focusColor="#006db3" focusTraversable="false" id="pass" layoutX="528" layoutY="328" prefColumnCount="12" prefHeight="32" prefWidth="224" promptText="Пароль" text="" unFocusColor="#039be5">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="password-field"/>
+        <String fx:value="jfx-password-field"/>
+      </styleClass>
+    </com.jfoenix.controls.JFXPasswordField>
+    <com.jfoenix.controls.JFXTextField AnchorPane.leftAnchor="528" AnchorPane.rightAnchor="528" alignment="CENTER_LEFT" editable="true" focusColor="#006db3" focusTraversable="false" id="login" layoutX="528" layoutY="288" prefColumnCount="12" prefHeight="32" prefWidth="224" promptText="Логин" text="" unFocusColor="#039be5">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="jfx-text-field"/>
+      </styleClass>
+    </com.jfoenix.controls.JFXTextField>
+    <LabelEx AnchorPane.leftAnchor="472" AnchorPane.rightAnchor="472" AnchorPane.topAnchor="216" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="472" layoutY="216" prefHeight="32" prefWidth="336" styleClass="label " text="Авторизация" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="DejaVu Sans Bold" size="25"/>
+      </font>
+    </LabelEx>
+    <com.jfoenix.controls.JFXSpinner AnchorPane.bottomAnchor="329" AnchorPane.leftAnchor="488" AnchorPane.rightAnchor="503.00001144409" AnchorPane.topAnchor="288" focusTraversable="false" id="progressIndicator" layoutX="488" layoutY="288" prefHeight="104" prefWidth="289" progress="-1" radius="16" styleClass="progress-indicator jfx-spinner "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image="app/images/login.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-login" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-pass" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-login_button" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-save_log" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-progressIndicator" visible=""/>
+  </children>
+</AnchorPane>
