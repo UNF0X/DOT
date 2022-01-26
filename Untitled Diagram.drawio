@@ -1,1 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T12:39:47.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="16.4.7" etag="HgCLPWx-zb5qeLcT7nH1" type="github"><diagram id="AXrCVutSQ4JRpcPE0jGA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-26T13:04:52.246Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="LvtQy7ZknCom7411v1mP" version="16.4.7" type="github">
+  <diagram id="AXrCVutSQ4JRpcPE0jGA" name="Page-1">
+    <mxGraphModel dx="2140" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0r38QTyaooSWMs6Vkbw4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="0r38QTyaooSWMs6Vkbw4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0r38QTyaooSWMs6Vkbw4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0r38QTyaooSWMs6Vkbw4-2" target="0r38QTyaooSWMs6Vkbw4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0r38QTyaooSWMs6Vkbw4-2" value="Ввод R, r" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0r38QTyaooSWMs6Vkbw4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0r38QTyaooSWMs6Vkbw4-5" target="0r38QTyaooSWMs6Vkbw4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0r38QTyaooSWMs6Vkbw4-5" value="&lt;span style=&quot;font-size: 16px ; color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;S = π ⋅ ( R 2 − r 2 )&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="340" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0r38QTyaooSWMs6Vkbw4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0r38QTyaooSWMs6Vkbw4-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0r38QTyaooSWMs6Vkbw4-7" value="Вывод S" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="440" width="212" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0r38QTyaooSWMs6Vkbw4-12" value="&lt;div class=&quot;page&quot; title=&quot;Page 4&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;ol&gt;&lt;li style=&quot;font-size: 14pt ; font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt&quot;&gt;Составить алгоритм вычисления площади кольца, если известны радиуса внешней и внутренней окружности.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="30" width="950" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0r38QTyaooSWMs6Vkbw4-13" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0r38QTyaooSWMs6Vkbw4-14" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
